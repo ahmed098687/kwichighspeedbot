@@ -112,7 +112,7 @@ async def private_receive_handler(c: Client, m: Message):
 
 <b>🖥 لينك المشاهدة :- </b> <i><b>{}</b></i>
 
-<b>♻️ هذا الرابط دائم ولا نريد أن ينتهي  ♻️\n\n@MoviesNowV2</b>"""
+<b>♻️ هذا الرابط دائم ولا نريد أن ينتهي  ♻️\n\n@Success0002_bot</b>"""
 
         await log_msg.reply_text(text=f"**RᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Uꜱᴇʀ ɪᴅ :** `{m.from_user.id}`\n**Stream ʟɪɴᴋ :** {stream_link}", disable_web_page_preview=True, quote=True)
         await m.reply_text(
